@@ -45,7 +45,7 @@ nav{
     justify-content: space-between;
 }
  main > section{
-    padding-bottom: 100px;
+    padding-bottom: 180px;
  }
 #hero-section{
     min-height: 90vh;
@@ -61,7 +61,7 @@ nav{
 .section-heading{
     width: 100%;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
     font-family: "Lora", sans-serif;
 }
 
@@ -130,7 +130,7 @@ nav > a:hover{
 
 .about-container{
     display: flex;
-    gap: 50px;
+    gap: 100px;
     align-items: center;
 }
 
@@ -166,4 +166,40 @@ nav > a:hover{
     border-radius: 100%;
     border-color: white;
     box-shadow: 0 0 10px #6B757C;
+}
+.education-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+}
+.education{
+    background-color: white;
+    padding: 40px;
+    border-style: solid;
+    border-color: #6B757C;
+    border-radius: 20px;
+    border-width: 3px;
+    display: flex;
+    height: 250px;
+    gap: 50px;
+    box-shadow: 0 0 30px #6B757C;
+}
+
+.education:hover{
+    border-color: #007AFF;
+    box-shadow: 0 0 10px #6B757C;
+    transition: 0.2s;
+}
+
+.education_decription{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.edu-image{
+    object-fit: contain;
+}
+
+.edu-place{
+    color: #007AFF;
 }
