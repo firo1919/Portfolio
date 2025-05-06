@@ -6,5 +6,3 @@ window.addEventListener('scroll', () => {
         header.classList.remove('scrolled');
     }
 });
-
-const footer = document.querySelector('footer')
