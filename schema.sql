@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS admins (
   password VARCHAR(255) NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-$pass = password_hash("secure", PASSWORD_DEFAULT)
+
 INSERT INTO admins (username, password)
 VALUES (
   'admin',
