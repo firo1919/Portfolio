@@ -15,7 +15,7 @@
 <body>
     <header>
         <a class="logo-link" href="#hero-section">
-            <img class="logo" src="images/logo.png" />
+            <img class="logo" src="images/pf2.jpg" />
         </a>
         <nav>
             <a href="#about-section">About Me</a>
@@ -40,7 +40,7 @@
         <section id="about-section">
             <h1 class="section-heading">About Me</h1>
             <div class="about-container">
-                <img class="profile2" src="https://picsum.photos/400/400" alt="" />
+                <img class="profile2" src="images/pf1.jpg" alt="" />
                 <div class="description">
                     <p>Hi there! I'm Firomsa Assefa, a Computer Science and Engineering student at Adama Science and Technology University in Ethiopia.Love creating impactfull tech solutions to real world preblems, I love collaborating with like-minded individuals and contributing to meaningful projects.</p>
 
