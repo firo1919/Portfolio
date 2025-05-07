@@ -1,3 +1,7 @@
+-- set root password to 'root' (so PHP’s root/root works)
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'root';
+FLUSH PRIVILEGES;
+
 CREATE DATABASE IF NOT EXISTS website;
 USE website;
 
