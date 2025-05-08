@@ -15,7 +15,7 @@
 <body>
     <header>
         <a class="logo-link" href="#hero-section">
-            <img class="logo" src="images/pf2.jpg" />
+            <img class="logo" src="images/logo.png" />
         </a>
         <nav>
             <a href="#about-section">About Me</a>
@@ -34,7 +34,7 @@
                     <p>A passionate developer. I tend to make use of modern technologies to build softwares that bring satisfaction for customers.</p>
                     <a href="https://t.me/circa1919" class="contact-me">Contact me</a>
                 </div>
-                <img class="profile" src="https://picsum.photos/600/400" alt="" />
+                <img class="profile" src="images/pf2.jpg" alt="" />
             </div>
         </section>
         <section id="about-section">
